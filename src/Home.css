@@ -13,12 +13,51 @@
   margin-right: 5px;
 }
 
-.home__container {
+.home__category {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  z-index: 1;
+  justify-content: flex-end;
+  margin: 10px;
+  padding: 20px;
+  width: 100%;
+  max-height: 400px;
+  min-width: 80px;
+  overflow: hidden;
+}
+
+.home__cateName {
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.home__cateName > h2 {
+  color: #111;
+}
+
+.home__category > img {
+  max-height: 100%;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.home__category > small {
+  color: #0066c0;
+  text-align: left;
+  cursor: pointer;
 }
 
 .home__image {
   width: 100%;
   z-index: -1;
   margin-bottom: -150px;
-  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 0)
+  ) !important;
 }

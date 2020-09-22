@@ -1,0 +1,16 @@
+.orders {
+  padding: 20px 80px;
+  background-color: lightgray;
+  height: max-content;
+}
+
+.orders > h1 {
+  margin: 30px;
+}
+
+.orders__img {
+  align-items: center;
+  padding: auto;
+  width: 20%;
+  margin-bottom: 10px;
+}
